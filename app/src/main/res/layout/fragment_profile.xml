@@ -5,19 +5,24 @@
     android:layout_height="match_parent"
     tools:context=".ProfileFragment"
     android:id="@+id/proFragment">
+<!--    tools:context=".SettingsFragment">-->
 
-<!--    <fragment-->
-<!--        android:id="@+id/proFragment"-->
-<!--        android:name="com.example.firstapplication.HomeFragment"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        />-->
-    <!--        android:layout_width="300dp"-->
-    <!--        android:layout_height="600dp"-->
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="ハッピーバースデー" />
+        android:text="profile" />
 
 </FrameLayout>
+<!--<fragment-->
+<!--android:id="@+id/proFragment"-->
+<!--android:name="com.example.firstapplication.HomeFragment"-->
+<!--    &lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--    &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--    android:layout_width="300dp"-->
+<!--    android:layout_height="600dp"-->
+<!--    />-->
+<!--    &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:text="ハッピーバースデー" />-->

@@ -42,20 +42,20 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-<!--        <fragment-->
-<!--            android:id="@+id/homeFragment"-->
-<!--            android:name="com.example.firstapplication.HomeFragment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent" />-->
+        <fragment
+            android:id="@+id/homeFragment"
+            android:name="com.example.firstapplication.HomeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 
-<!--    <com.google.android.material.navigation.NavigationView-->
-<!--        android:id="@+id/navView"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_gravity="start"-->
-<!--        app:menu="@menu/navigationdrawer_menu"-->
-<!--        tools:ignore="MissingConstraints" />-->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigationdrawer_menu"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

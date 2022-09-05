@@ -4,6 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
+import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,10 +14,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val sub_btn = findViewById<Button>(R.id.nextButton)    //画面のボタン
-//        val navView: NavigationView = findViewById(R.id.navView)
-//        val navController = this.findNavController(R.id.proFragment)
+        val navView: NavigationView = findViewById(R.id.navView)
+        //9月5日　profragmentの設定場所を調べるところから
+        val navController = this.findNavController(R.id.proFragment)
 //        val navController = this.findNavController(R.id.navHostFragment)
-//        NavigationUI.setupWithNavController(navView, navController)
+        NavigationUI.setupWithNavController(navView, navController)
 
         sub_btn.setOnClickListener {
             //Intentオブジェクト生成、遷移画面定義
